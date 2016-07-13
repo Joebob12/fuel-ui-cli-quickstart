@@ -15,7 +15,7 @@ module.exports = function(defaults) {
       'bootstrap/**/bootstrap.min.css',
       'font-awesome/**/font-awesome.min.css',
       'font-awesome/fonts/*',
-      'fuel-ui/bundles/*'
+      'fuel-ui/**/*'
     ]
   });
 };
