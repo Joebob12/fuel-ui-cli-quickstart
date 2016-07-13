@@ -26,6 +26,7 @@ const barrels: string[] = [
 
   // Thirdparty barrels.
   'rxjs',
+  'fuel-ui',
 
   // App specific barrels.
   'app',
@@ -46,6 +47,7 @@ System.config({
   map: {
     '@angular': 'vendor/@angular',
     'rxjs': 'vendor/rxjs',
+    'fuel-ui': 'vendor/fuel-ui'
     'main': 'main.js'
   },
   packages: cliSystemConfigPackages
